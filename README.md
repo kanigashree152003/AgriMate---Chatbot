@@ -45,6 +45,9 @@ User Input → CNN Model → NLP Embedding → Vector Search → Response Genera
 
 5. Open browser:
    http://localhost:5000
+   
+Note:
+This project runs locally. The UI will work only when the Flask server is running.
 
 ## Model Details
 
