@@ -69,7 +69,7 @@ Rice leaf disease dataset (public sources)
 * Multi-crop support
 * Cloud deployment
 
-## 👤 Author
+## Author
 
 Kanigashree R
 MSc Data Analytics
