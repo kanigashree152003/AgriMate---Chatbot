@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crop Doctor Assistant</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7fff5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      margin: 0;
+      padding-top: 30px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .logo img {
+      width: 60px;
+      height: 60px;
+    }
+    h2 {
+      font-size: 22px;
+      color: #2e7d32;
+      margin-bottom: 20px;
+    }
+    .chat-box {
+      width: 90%;
+      max-width: 650px;
+      height: 60vh;
+      border-radius: 15px;
+      background: #ffffff;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      overflow-y: auto;
+      padding: 20px;
+      margin-bottom: 15px;
+      display: none; /* Hidden until language selected */
+    }
+    .message {
+      margin: 10px 0;
+      padding: 10px 15px;
+      border-radius: 10px;
+      max-width: 80%;
+    }
+    .user { background-color: #dcedc8; align-self: flex-end; }
+    .bot { background-color: #e8f5e9; align-self: flex-start; }
+    .input-area {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background-color: #fff;
+      border-radius: 30px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      padding: 10px 20px;
+      width: 90%;
+      max-width: 650px;
+      display: none; /* Hidden until language selected */
+    }
+    input[type="text"] {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+    button {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    button:hover { background-color: #43a047; }
+    #imageInput { display: none; }
+    .upload-icon {
+      cursor: pointer;
+      font-size: 22px;
+      color: #4caf50;
+    }
+    /* Language selection popup */
+    .lang-select {
+      background: #fff;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+    }
+    .lang-select h3 {
+      color: #2e7d32;
+      margin-bottom: 15px;
+    }
+    .lang-btn {
+      background-color: #4caf50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .lang-btn:hover { background-color: #43a047; }
+  </style>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="static/images/logo.png" alt="Crop Doctor Logo">
+    <h2>Crop Doctor Assistant</h2>
+  </div>
+
+  <div id="langPopup" class="lang-select">
+    <h3>🌐 Select your language / உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்</h3>
+    <button class="lang-btn" onclick="setLanguage('en')">English</button>
+    <button class="lang-btn" onclick="setLanguage('ta')">தமிழ்</button>
+  </div>
+
+  <div class="chat-box" id="chatBox"></div>
+
+  <div class="input-area" id="inputArea">
+    <label for="imageInput" class="upload-icon" title="Upload leaf image">📷</label>
+    <input type="file" id="imageInput" accept="image/*">
+    <input type="text" id="userInput" placeholder="">
+    <button onclick="sendMessage()">➤</button>
+  </div>
+
+  <script>
+    const chatBox = document.getElementById("chatBox");
+    const inputArea = document.getElementById("inputArea");
+    const langPopup = document.getElementById("langPopup");
+    let selectedLang = "en";
+
+    const messages = {
+      en: {
+        welcome: "👋 Hello! I’m your Crop Doctor Assistant. You can upload a leaf photo or ask any crop-related question.",
+        placeholder: "Ask anything...",
+        uploadMsg: "📸 Uploaded leaf image..."
+      },
+      ta: {
+        welcome: "👋 வணக்கம்! நான் உங்கள் பயிர் மருத்துவர் உதவியாளர். இலை புகைப்படம் பதிவேற்றவோ அல்லது பயிர் குறித்த கேள்வி கேட்கவோலாம்.",
+        placeholder: "ஏதேனும் கேள்வி கேளுங்கள்...",
+        uploadMsg: "📸 இலை புகைப்படம் பதிவேற்றப்பட்டது..."
+      }
+    };
+
+    function setLanguage(lang) {
+      selectedLang = lang;
+      langPopup.style.display = "none";
+      chatBox.style.display = "block";
+      inputArea.style.display = "flex";
+
+      appendMessage("bot", messages[lang].welcome);
+      document.getElementById("userInput").placeholder = messages[lang].placeholder;
+    }
+
+    function appendMessage(sender, text) {
+      const message = document.createElement("div");
+      message.classList.add("message", sender);
+      message.textContent = text;
+      chatBox.appendChild(message);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    async function sendMessage() {
+      const userInput = document.getElementById("userInput");
+      const text = userInput.value.trim();
+      const imageFile = document.getElementById("imageInput").files[0];
+
+      if (!text && !imageFile) return;
+
+      if (text) {
+        appendMessage("user", text);
+        userInput.value = "";
+        const response = await fetch("/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: `message=${text}`
+        });
+        const data = await response.json();
+        appendMessage("bot", data.response);
+      }
+
+      if (imageFile) {
+        appendMessage("user", messages[selectedLang].uploadMsg);
+        const formData = new FormData();
+        formData.append("image", imageFile);
+
+        const response = await fetch("/predict", {
+          method: "POST",
+          body: formData
+        });
+        const data = await response.json();
+        appendMessage("bot", data.result);
+        document.getElementById("imageInput").value = "";
+      }
+    }
+  </script>
+</body>
+</html>

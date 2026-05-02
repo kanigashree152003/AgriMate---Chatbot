@@ -1,0 +1,390 @@
+Image Name,Actual Class,Predicted Class,Confidence
+aug_0_1006.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,100.00%
+aug_0_1090.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.97%
+aug_0_1092.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.64%
+aug_0_1121.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.94%
+aug_0_1156.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.80%
+aug_0_116.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.85%
+aug_0_1242.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.90%
+aug_0_1372.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,98.89%
+aug_0_1490.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,98.41%
+aug_0_1648.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.99%
+aug_0_1707.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.88%
+aug_0_173.jpg,Bacterial Leaf Blight,Leaf Blast,60.30%
+aug_0_265.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.93%
+aug_0_2948.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.95%
+aug_0_3125.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.85%
+aug_0_3145.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.95%
+aug_0_3151.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.90%
+aug_0_3185.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.99%
+aug_0_3217.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.68%
+aug_0_3260.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.99%
+aug_0_3347.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.89%
+aug_0_3498.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,100.00%
+aug_0_3595.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.89%
+aug_0_3621.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,64.73%
+aug_0_3751.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.92%
+aug_0_3783.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.52%
+aug_0_4150.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,96.63%
+aug_0_4179.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.98%
+aug_0_4216.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,89.09%
+aug_0_436.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,100.00%
+aug_0_4427.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.96%
+aug_0_4451.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.73%
+aug_0_4497.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.73%
+aug_0_4561.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.92%
+aug_0_4585.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.97%
+aug_0_5043.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.41%
+aug_0_5055.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,98.80%
+aug_0_5265.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.46%
+aug_0_531.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.94%
+aug_0_5344.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,100.00%
+aug_0_5803.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,98.17%
+aug_0_6040.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.98%
+aug_0_6144.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,56.32%
+aug_0_6187.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.98%
+aug_0_6263.jpg,Bacterial Leaf Blight,Leaf scald,80.15%
+aug_0_6550.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.99%
+aug_0_682.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.99%
+aug_0_694.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.97%
+aug_0_742.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.98%
+aug_0_799.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,98.43%
+aug_0_820.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.95%
+aug_0_872.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.46%
+aug_0_88.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.98%
+aug_0_911.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.99%
+aug_0_917.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.94%
+IMG_20231014_172838.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.97%
+IMG_20231014_173132.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.99%
+IMG_20231014_173137.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.95%
+IMG_20231014_173140.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.89%
+IMG_20231014_173143.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.97%
+IMG_20231014_173340.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.99%
+IMG_20231014_173521.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.89%
+IMG_20231014_173819.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,96.66%
+IMG_20231018_143623_1.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,100.00%
+IMG_20231018_143624.jpg,Bacterial Leaf Blight,Bacterial Leaf Blight,99.97%
+20231006_165801(0).jpg,Brown Spot,Brown Spot,99.99%
+aug_0_17.jpg,Brown Spot,Brown Spot,99.59%
+aug_0_195.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_222.jpg,Brown Spot,Brown Spot,99.93%
+aug_0_4834.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_4871.jpg,Brown Spot,Brown Spot,99.95%
+aug_0_5009.jpg,Brown Spot,Brown Spot,100.00%
+aug_0_5064.jpg,Brown Spot,Brown Spot,93.77%
+aug_0_5072.jpg,Brown Spot,Brown Spot,99.93%
+aug_0_5089.jpg,Brown Spot,Brown Spot,98.03%
+aug_0_5112.jpg,Brown Spot,Brown Spot,99.98%
+aug_0_5124.jpg,Brown Spot,Brown Spot,99.96%
+aug_0_5243.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_5424.jpg,Brown Spot,Brown Spot,99.77%
+aug_0_5551.jpg,Brown Spot,Brown Spot,99.96%
+aug_0_5567.jpg,Brown Spot,Brown Spot,99.51%
+aug_0_5679.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_5720.jpg,Brown Spot,Brown Spot,99.60%
+aug_0_6096.jpg,Brown Spot,Brown Spot,99.94%
+aug_0_6129.jpg,Brown Spot,Brown Spot,99.98%
+aug_0_6155.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_6254.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_6317.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_6353.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_6400.jpg,Brown Spot,Brown Spot,99.97%
+aug_0_6463.jpg,Brown Spot,Healthy Rice Leaf,58.75%
+aug_0_6489.jpg,Brown Spot,Brown Spot,100.00%
+aug_0_6804.jpg,Brown Spot,Brown Spot,91.69%
+aug_0_6810.jpg,Brown Spot,Brown Spot,99.94%
+aug_0_7043.jpg,Brown Spot,Brown Spot,98.10%
+aug_0_7074.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_7117.jpg,Brown Spot,Brown Spot,99.93%
+aug_0_7590.jpg,Brown Spot,Brown Spot,99.98%
+aug_0_7797.jpg,Brown Spot,Brown Spot,99.98%
+aug_0_7930.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_7967.jpg,Brown Spot,Brown Spot,99.96%
+aug_0_8011.jpg,Brown Spot,Brown Spot,96.29%
+aug_0_8131.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_8226.jpg,Brown Spot,Brown Spot,100.00%
+aug_0_8227.jpg,Brown Spot,Brown Spot,99.74%
+aug_0_8249.jpg,Brown Spot,Brown Spot,95.02%
+aug_0_8319.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_8334.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_8365.jpg,Brown Spot,Brown Spot,99.98%
+aug_0_8446.jpg,Brown Spot,Brown Spot,95.86%
+aug_0_8481.jpg,Brown Spot,Brown Spot,81.70%
+aug_0_8498.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_8508.jpg,Brown Spot,Brown Spot,99.99%
+Brown_spot (142).jpg,Brown Spot,Brown Spot,100.00%
+Brown_spot (144).jpg,Brown Spot,Brown Spot,99.53%
+Brown_spot (147).jpg,Brown Spot,Brown Spot,99.98%
+Brown_spot (149).jpg,Brown Spot,Brown Spot,100.00%
+Brown_spot (161).jpg,Brown Spot,Brown Spot,100.00%
+Brown_spot (163).jpg,Brown Spot,Brown Spot,100.00%
+Brown_spot (188).jpg,Brown Spot,Brown Spot,99.95%
+Brown_spot (197).jpg,Brown Spot,Brown Spot,98.91%
+Brown_spot (198).jpg,Brown Spot,Brown Spot,99.99%
+Brown_spot (206).jpg,Brown Spot,Brown Spot,100.00%
+Brown_spot (211).jpg,Brown Spot,Brown Spot,99.99%
+Brown_spot (212).jpg,Brown Spot,Brown Spot,99.88%
+Brown_spot (216).jpg,Brown Spot,Brown Spot,99.69%
+Brown_spot (220).jpg,Brown Spot,Brown Spot,76.81%
+Brown_spot (221).jpg,Brown Spot,Brown Spot,99.92%
+IMG_20231014_173237.jpg,Brown Spot,Brown Spot,95.91%
+IMG_20231018_143709 - Copy.jpg,Brown Spot,Brown Spot,99.99%
+IMG_20231018_144156.jpg,Brown Spot,Brown Spot,99.99%
+aug_0_1162.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_1222.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.59%
+aug_0_1430.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_1440.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.97%
+aug_0_151.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_1518.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.90%
+aug_0_1541.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_1599.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_1692.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_1868.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.93%
+aug_0_1974.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_1999.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_28.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.98%
+aug_0_349.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.97%
+aug_0_6947.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_699.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.95%
+aug_0_7038.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_7168.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_7183.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_7204.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_725.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_7302.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_731.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_7724.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.98%
+aug_0_7741.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_8028.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_8108.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_8178.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_8681.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.93%
+aug_0_9039.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_9182.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_9277.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_9344.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_9512.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_9608.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_9610.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.96%
+aug_0_9703.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.97%
+aug_0_9705.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_9741.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.83%
+aug_0_9776.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_9864.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_9899.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+aug_0_9914.jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_9941.jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (10).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (117).jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.96%
+Healthy_rice_leaf (119).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (121).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (123).jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.96%
+Healthy_rice_leaf (134).jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+Healthy_rice_leaf (136).jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.98%
+Healthy_rice_leaf (159).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (167).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (168).jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+Healthy_rice_leaf (175).jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+Healthy_rice_leaf (18).jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.91%
+Healthy_rice_leaf (180).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (2).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (23).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (24).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (33).jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.98%
+Healthy_rice_leaf (45).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (59).jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+Healthy_rice_leaf (74).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (78).jpg,Healthy Rice Leaf,Healthy Rice Leaf,100.00%
+Healthy_rice_leaf (80).jpg,Healthy Rice Leaf,Healthy Rice Leaf,99.99%
+aug_0_153.jpg,Leaf Blast,Leaf Blast,99.84%
+aug_0_1728.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_244.jpg,Leaf Blast,Leaf Blast,99.79%
+aug_0_356.jpg,Leaf Blast,Leaf Blast,99.91%
+aug_0_379.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_4.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_7037.jpg,Leaf Blast,Leaf Blast,99.99%
+aug_0_7098.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_7185.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_7204.jpg,Leaf Blast,Leaf Blast,99.16%
+aug_0_7220.jpg,Leaf Blast,Leaf Blast,98.03%
+aug_0_7259.jpg,Leaf Blast,Leaf Blast,90.97%
+aug_0_7291.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_7323.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_7442.jpg,Leaf Blast,Leaf Blast,99.97%
+aug_0_7559.jpg,Leaf Blast,Leaf Blast,67.37%
+aug_0_7613.jpg,Leaf Blast,Leaf Blast,99.97%
+aug_0_7633.jpg,Leaf Blast,Leaf Blast,99.97%
+aug_0_7722.jpg,Leaf Blast,Leaf Blast,98.04%
+aug_0_7740.jpg,Leaf Blast,Leaf Blast,99.33%
+aug_0_8060.jpg,Leaf Blast,Leaf Blast,99.99%
+aug_0_8077.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_8118.jpg,Leaf Blast,Leaf Blast,99.98%
+aug_0_8231.jpg,Leaf Blast,Leaf Blast,99.93%
+aug_0_8253.jpg,Leaf Blast,Leaf Blast,99.73%
+aug_0_8279.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_8353.jpg,Leaf Blast,Leaf Blast,99.99%
+aug_0_8391.jpg,Leaf Blast,Leaf Blast,99.99%
+aug_0_8663.jpg,Leaf Blast,Leaf Blast,99.96%
+aug_0_8671.jpg,Leaf Blast,Leaf Blast,99.76%
+aug_0_8862.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_89.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_8938.jpg,Leaf Blast,Leaf Blast,99.99%
+aug_0_9241.jpg,Leaf Blast,Leaf Blast,99.95%
+aug_0_9454.jpg,Leaf Blast,Leaf Blast,99.95%
+aug_0_9484.jpg,Leaf Blast,Leaf Blast,99.96%
+aug_0_9538.jpg,Leaf Blast,Leaf Blast,99.66%
+aug_0_9598.jpg,Leaf Blast,Leaf Blast,100.00%
+aug_0_9807.jpg,Leaf Blast,Leaf Blast,99.95%
+aug_0_9828.jpg,Leaf Blast,Leaf Blast,99.99%
+aug_0_9847.jpg,Leaf Blast,Leaf Blast,99.85%
+aug_0_9848.jpg,Leaf Blast,Leaf Blast,98.47%
+aug_0_9855.jpg,Leaf Blast,Leaf Blast,99.86%
+aug_0_9895.jpg,Leaf Blast,Leaf Blast,99.98%
+aug_0_9904.jpg,Leaf Blast,Leaf Blast,99.95%
+aug_0_9930.jpg,Leaf Blast,Leaf Blast,99.85%
+aug_0_9937.jpg,Leaf Blast,Leaf Blast,99.99%
+aug_0_9945.jpg,Leaf Blast,Leaf Blast,99.81%
+IMG_20231006_170426.jpg,Leaf Blast,Leaf scald,49.94%
+IMG_20231014_171709.jpg,Leaf Blast,Leaf Blast,99.94%
+IMG_20231014_171711.jpg,Leaf Blast,Leaf Blast,99.99%
+IMG_20231014_171809.jpg,Leaf Blast,Leaf Blast,99.94%
+IMG_20231014_172033.jpg,Leaf Blast,Leaf Blast,99.96%
+IMG_20231014_172548.jpg,Leaf Blast,Leaf Blast,100.00%
+IMG_20231014_172552.jpg,Leaf Blast,Leaf Blast,100.00%
+IMG_20231018_143740.jpg,Leaf Blast,Leaf Blast,99.99%
+IMG_20231018_143802_1 - Copy.jpg,Leaf Blast,Leaf Blast,99.97%
+IMG_20231018_143802_1.jpg,Leaf Blast,Leaf Blast,99.97%
+IMG_20231018_143840 - Copy.jpg,Leaf Blast,Leaf Blast,99.98%
+IMG_20231018_143842_1 - Copy.jpg,Leaf Blast,Leaf Blast,95.76%
+IMG_20231018_143842_1.jpg,Leaf Blast,Leaf Blast,95.76%
+IMG_20231018_143844.jpg,Leaf Blast,Leaf Blast,99.97%
+IMG_20231018_143856.jpg,Leaf Blast,Leaf Blast,100.00%
+IMG_20231018_143856_1 - Copy.jpg,Leaf Blast,Leaf Blast,99.99%
+aug_0_1040.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_1055.jpg,Leaf scald,Leaf scald,99.93%
+aug_0_1130.jpg,Leaf scald,Leaf scald,96.15%
+aug_0_1161.jpg,Leaf scald,Leaf scald,99.96%
+aug_0_117.jpg,Leaf scald,Leaf scald,99.88%
+aug_0_1214.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_1231.jpg,Leaf scald,Leaf scald,99.99%
+aug_0_1232.jpg,Leaf scald,Leaf scald,99.98%
+aug_0_1303.jpg,Leaf scald,Leaf scald,99.98%
+aug_0_1401.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_1559.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_1707.jpg,Leaf scald,Leaf scald,99.99%
+aug_0_1748.jpg,Leaf scald,Leaf scald,99.27%
+aug_0_1782.jpg,Leaf scald,Leaf scald,99.99%
+aug_0_1998.jpg,Leaf scald,Leaf scald,98.47%
+aug_0_205.jpg,Leaf scald,Leaf scald,99.99%
+aug_0_223.jpg,Leaf scald,Leaf scald,99.96%
+aug_0_2292.jpg,Leaf scald,Leaf scald,99.78%
+aug_0_231.jpg,Leaf scald,Leaf scald,99.65%
+aug_0_2327.jpg,Leaf scald,Leaf scald,99.79%
+aug_0_2397.jpg,Leaf scald,Leaf scald,99.90%
+aug_0_2426.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_2517.jpg,Leaf scald,Leaf scald,99.98%
+aug_0_2682.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_2814.jpg,Leaf scald,Leaf scald,94.90%
+aug_0_2822.jpg,Leaf scald,Leaf scald,99.98%
+aug_0_2916.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_2961.jpg,Leaf scald,Leaf scald,99.97%
+aug_0_3320.jpg,Leaf scald,Leaf scald,99.99%
+aug_0_3331.jpg,Leaf scald,Leaf scald,99.96%
+aug_0_3364.jpg,Leaf scald,Leaf scald,99.75%
+aug_0_3461.jpg,Leaf scald,Leaf scald,96.45%
+aug_0_3483.jpg,Leaf scald,Leaf scald,99.99%
+aug_0_3509.jpg,Leaf scald,Leaf scald,99.95%
+aug_0_3542.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_3604.jpg,Leaf scald,Leaf scald,99.95%
+aug_0_3622.jpg,Leaf scald,Leaf scald,98.71%
+aug_0_3906.jpg,Leaf scald,Leaf scald,99.65%
+aug_0_398.jpg,Leaf scald,Leaf scald,99.99%
+aug_0_529.jpg,Leaf scald,Leaf scald,99.98%
+aug_0_5326.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_5349.jpg,Leaf scald,Brown Spot,72.07%
+aug_0_5768.jpg,Leaf scald,Leaf scald,99.89%
+aug_0_6017.jpg,Leaf scald,Leaf scald,99.96%
+aug_0_6136.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_620.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_629.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_71.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_764.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_807.jpg,Leaf scald,Leaf scald,99.99%
+aug_0_812.jpg,Leaf scald,Leaf scald,99.95%
+aug_0_818.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_88.jpg,Leaf scald,Leaf scald,99.99%
+aug_0_916.jpg,Leaf scald,Leaf scald,99.87%
+aug_0_935.jpg,Leaf scald,Leaf scald,100.00%
+aug_0_942.jpg,Leaf scald,Leaf scald,99.95%
+Leaf_scald (106).jpg,Leaf scald,Leaf scald,99.90%
+Leaf_scald (49).jpg,Leaf scald,Leaf scald,100.00%
+Leaf_scald (51).jpg,Leaf scald,Leaf scald,100.00%
+Leaf_scald (54).jpg,Leaf scald,Leaf scald,100.00%
+Leaf_scald (56).jpg,Leaf scald,Leaf scald,100.00%
+Leaf_scald (68).jpg,Leaf scald,Leaf scald,100.00%
+Leaf_scald (70).jpg,Leaf scald,Leaf scald,100.00%
+Leaf_scald (95).jpg,Leaf scald,Leaf scald,100.00%
+aug_0_177.jpg,Sheath Blight,Sheath Blight,99.92%
+aug_0_191.jpg,Sheath Blight,Sheath Blight,99.98%
+aug_0_461.jpg,Sheath Blight,Sheath Blight,99.98%
+aug_0_483.jpg,Sheath Blight,Sheath Blight,99.84%
+aug_0_495.jpg,Sheath Blight,Sheath Blight,100.00%
+aug_0_625.jpg,Sheath Blight,Sheath Blight,99.97%
+aug_0_64.jpg,Sheath Blight,Sheath Blight,100.00%
+aug_0_655.jpg,Sheath Blight,Sheath Blight,99.98%
+aug_0_7952.jpg,Sheath Blight,Sheath Blight,99.30%
+aug_0_7995.jpg,Sheath Blight,Sheath Blight,99.92%
+aug_0_8013.jpg,Sheath Blight,Sheath Blight,99.11%
+aug_0_8276.jpg,Sheath Blight,Sheath Blight,99.95%
+aug_0_8304.jpg,Sheath Blight,Sheath Blight,99.71%
+aug_0_8553.jpg,Sheath Blight,Sheath Blight,99.99%
+aug_0_8606.jpg,Sheath Blight,Sheath Blight,100.00%
+aug_0_8680.jpg,Sheath Blight,Sheath Blight,99.98%
+aug_0_9077.jpg,Sheath Blight,Sheath Blight,99.75%
+aug_0_9353.jpg,Sheath Blight,Sheath Blight,99.27%
+aug_0_9403.jpg,Sheath Blight,Sheath Blight,99.76%
+aug_0_9468.jpg,Sheath Blight,Sheath Blight,99.94%
+aug_0_9525.jpg,Sheath Blight,Sheath Blight,100.00%
+aug_0_9688.jpg,Sheath Blight,Sheath Blight,97.70%
+aug_0_9802.jpg,Sheath Blight,Sheath Blight,100.00%
+aug_0_9805.jpg,Sheath Blight,Sheath Blight,100.00%
+aug_0_9807.jpg,Sheath Blight,Sheath Blight,99.83%
+aug_0_9830.jpg,Sheath Blight,Sheath Blight,100.00%
+aug_0_9890.jpg,Sheath Blight,Sheath Blight,99.84%
+aug_0_9907.jpg,Sheath Blight,Sheath Blight,99.90%
+aug_0_9935.jpg,Sheath Blight,Sheath Blight,99.91%
+aug_0_9942.jpg,Sheath Blight,Sheath Blight,99.32%
+IMG_20231006_163221.jpg,Sheath Blight,Sheath Blight,99.99%
+IMG_20231014_171013.jpg,Sheath Blight,Sheath Blight,99.99%
+IMG_20231014_171016.jpg,Sheath Blight,Sheath Blight,99.99%
+IMG_20231014_171018_1.jpg,Sheath Blight,Sheath Blight,99.99%
+IMG_20231014_171020.jpg,Sheath Blight,Sheath Blight,99.96%
+IMG_20231014_171110.jpg,Sheath Blight,Sheath Blight,99.98%
+IMG_20231014_171117.jpg,Sheath Blight,Sheath Blight,99.99%
+IMG_20231014_172942.jpg,Sheath Blight,Sheath Blight,99.96%
+IMG_20231014_173700.jpg,Sheath Blight,Sheath Blight,99.99%
+IMG_20231014_173701.jpg,Sheath Blight,Sheath Blight,99.99%
+IMG_20231014_173800.jpg,Sheath Blight,Sheath Blight,99.96%
+IMG_20231014_173856.jpg,Sheath Blight,Sheath Blight,100.00%
+IMG_20231014_173857.jpg,Sheath Blight,Sheath Blight,100.00%
+IMG_20231014_173912.jpg,Sheath Blight,Sheath Blight,100.00%
+IMG_20231014_173920.jpg,Sheath Blight,Sheath Blight,100.00%
+IMG_20231014_173938.jpg,Sheath Blight,Sheath Blight,100.00%
+IMG_20231014_174001_1.jpg,Sheath Blight,Sheath Blight,100.00%
+IMG_20231018_143257.jpg,Sheath Blight,Sheath Blight,99.96%
+Sheath_Blight (10).jpg,Sheath Blight,Sheath Blight,99.80%
+Sheath_Blight (115).jpg,Sheath Blight,Sheath Blight,99.97%
+Sheath_Blight (119).jpg,Sheath Blight,Sheath Blight,99.99%
+Sheath_Blight (121).jpg,Sheath Blight,Sheath Blight,100.00%
+Sheath_Blight (16).jpg,Sheath Blight,Sheath Blight,100.00%
+Sheath_Blight (22).jpg,Sheath Blight,Sheath Blight,99.99%
+Sheath_Blight (38).jpg,Sheath Blight,Sheath Blight,98.48%
+Sheath_Blight (40).jpg,Sheath Blight,Sheath Blight,100.00%
+Sheath_Blight (42).jpg,Sheath Blight,Sheath Blight,100.00%
+Sheath_Blight (45).jpg,Sheath Blight,Sheath Blight,99.93%
+Sheath_Blight (5).jpg,Sheath Blight,Sheath Blight,100.00%
+Sheath_Blight (54).jpg,Sheath Blight,Sheath Blight,100.00%
+Sheath_Blight (65).jpg,Sheath Blight,Sheath Blight,100.00%
+Sheath_Blight (83).jpg,Sheath Blight,Sheath Blight,99.99%
+Sheath_Blight (93).jpg,Sheath Blight,Sheath Blight,100.00%
+Sheath_Blight (96).jpg,Sheath Blight,Sheath Blight,100.00%
