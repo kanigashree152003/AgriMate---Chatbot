@@ -14,14 +14,14 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 # -------------------------------------------------------
-# 🌾 Flask Setup
+# Flask Setup
 # -------------------------------------------------------
 app = Flask(__name__)
 UPLOAD_FOLDER = os.path.join('static', 'uploads')
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # -------------------------------------------------------
-# 🪵 Logging Setup
+# Logging Setup
 # -------------------------------------------------------
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
@@ -35,7 +35,7 @@ logging.basicConfig(
 )
 
 # -------------------------------------------------------
-# 🌿 MongoDB Setup
+# MongoDB Setup
 # -------------------------------------------------------
 try:
     client = MongoClient(
@@ -51,7 +51,7 @@ except Exception as e:
     collection = None
 
 # -------------------------------------------------------
-# 💬 Log Chat to MongoDB
+# Log Chat to MongoDB
 # -------------------------------------------------------
 def log_chat(user_input, bot_response, lang="en", mode="text", prediction=None, confidence=None):
     try:
@@ -70,7 +70,7 @@ def log_chat(user_input, bot_response, lang="en", mode="text", prediction=None, 
         print(" Error saving chat:", e)
 
 # -------------------------------------------------------
-# 🌿 Load CNN Model (ResNet18)
+# Load CNN Model (ResNet18)
 # -------------------------------------------------------
 def load_model(model_path):
     model = models.resnet18(pretrained=False)
@@ -92,7 +92,7 @@ CLASSES = [
 ]
 
 # -------------------------------------------------------
-# 🧠 Language Detection
+# Language Detection
 # -------------------------------------------------------
 def detect_language(text):
     tamil_pattern = r'[\u0B80-\u0BFF]'
@@ -104,12 +104,12 @@ def detect_language(text):
     return "en"
 
 # -------------------------------------------------------
-# 🌐 Semantic Model
+# Semantic Model
 # -------------------------------------------------------
 semantic_model = SentenceTransformer('all-MiniLM-L6-v2')
 
 # -------------------------------------------------------
-# 🌿 Disease Info Fetch + Semantic Fallback
+# Disease Info Fetch + Semantic Fallback
 # -------------------------------------------------------
 def get_disease_info(disease_name, lang="en"):
     if collection is None:
@@ -178,7 +178,7 @@ def get_disease_info(disease_name, lang="en"):
         return None
 
 # -------------------------------------------------------
-# 🌐 Translation Utility
+# Translation Utility
 # -------------------------------------------------------
 def translate_response(response_text, lang):
     if lang == "ta":
@@ -201,7 +201,7 @@ def translate_response(response_text, lang):
         return response_text
 
 # -------------------------------------------------------
-# 🖼️ Image Prediction
+# Image Prediction
 # -------------------------------------------------------
 def predict_disease(image_path):
     transform = transforms.Compose([
@@ -227,14 +227,14 @@ def predict_disease(image_path):
     return CLASSES[predicted.item()]
 
 # -------------------------------------------------------
-# 🏡 Routes
+# Routes
 # -------------------------------------------------------
 @app.route('/')
 def home():
     return render_template('index.html')
 
 # -------------------------------------------------------
-# 💬 Text Chat
+# Text Chat
 # -------------------------------------------------------
 @app.route('/chat', methods=['POST'])
 def chat():
@@ -267,7 +267,7 @@ def chat():
     return jsonify({'response_html': response_html})
 
 # -------------------------------------------------------
-# 🖼️ Predict Image — Ask Language
+# Predict Image — Ask Language
 # -------------------------------------------------------
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -308,7 +308,7 @@ def predict():
     })
 
 # -------------------------------------------------------
-# 🗣️ Image Solution (Based on Language)
+# Image Solution (Based on Language)
 # -------------------------------------------------------
 @app.route('/image_response', methods=['POST'])
 def image_response():
@@ -354,7 +354,7 @@ def image_response():
     return jsonify({'response_html': response_html})
 
 # -------------------------------------------------------
-# 🚀 Run Flask App
+# Run Flask App
 # -------------------------------------------------------
 if __name__ == '__main__':
     print(" AgriMate Chatbot running → http://127.0.0.1:5000")
