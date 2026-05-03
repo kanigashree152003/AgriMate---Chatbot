@@ -41,8 +41,8 @@ User Input → CNN Model → NLP Embedding → Vector Search → Response Genera
 #### English Response
 ![English](demo/English_response.png)
 
-#### Tanglish Query
-![Tanglish](demo/Tanglish_query.png)
+#### Tanglish Response
+![Tanglish](demo/Tanglish_response.png)
 
 ### NLP Query
 ![NLP](demo/NLP_based_response.png)
