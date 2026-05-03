@@ -27,7 +27,25 @@ User Input → CNN Model → NLP Embedding → Vector Search → Response Genera
 
 ## Demo
 
-(Add screenshots here later)
+### Chatbot Interface
+![UI](demo/Chatbot_UI.png)
+
+### Disease Detection (Image Input)
+![Prediction](demo/Image_prediction.png)
+
+### Multilingual Support
+
+#### Tamil Response
+![Tamil](demo/Tamil_response.png)
+
+#### English Response
+![English](demo/English_response.png)
+
+#### Tanglish Query
+![Tanglish](demo/Tanglish_query.png)
+
+### NLP Query
+![NLP](demo/NLP_based_response.png)
 
 ## How to Run
 
