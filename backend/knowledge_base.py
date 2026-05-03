@@ -1,6 +1,6 @@
 import re
 
-# 🌾 English Knowledge Base
+# English Knowledge Base
 knowledge_base_en = {
     "hi": "Hello! I’m your Crop Doctor Assistant. You can upload a leaf photo or ask me about crop diseases.",
     "hello": "Vanakkam! I’m your Crop Doctor Assistant. How can I help you with your paddy crops today?",
@@ -69,7 +69,7 @@ knowledge_base_en = {
     )
 }
 
-# 🌾 Tamil Knowledge Base
+# Tamil Knowledge Base
 knowledge_base_ta = {
     "hi": "வணக்கம்! நான் உங்க பயிர் டாக்டர் உதவியாளர். நீங்கள் ஒரு இலை புகைப்படம் பதிவேற்றலாம் அல்லது நோய்கள் பற்றி கேளுங்கள்.",
     "hello": "வணக்கம்! உங்க நெல் பயிருக்கு எப்படி உதவலாம்?",
@@ -136,7 +136,7 @@ knowledge_base_ta = {
     )
 }
 
-# 🌾 Tanglish Knowledge Base
+# Tanglish Knowledge Base
 knowledge_base_tanglish = {
     "hi": "Vanakkam! Naan unga Crop Doctor assistant. Neenga leaf photo upload pannalam.",
     "hello": "Vanakkam! Eppadi unga paddy ku help panna?",
@@ -184,7 +184,7 @@ knowledge_base_tanglish = {
     )
 }
 
-# 🌿 Image diagnosis helper messages
+# Image diagnosis helper messages
 image_diagnosis = {
     "en": {
         "instruction": " Please upload a clear image of the rice leaf for disease diagnosis.",
@@ -204,7 +204,7 @@ image_diagnosis = {
 }
 
 
-# 🌐 Language Detection
+# Language Detection
 def detect_language(user_input: str) -> str:
     tamil_pattern = r'[\u0B80-\u0BFF]'
     if re.search(tamil_pattern, user_input):
@@ -216,7 +216,7 @@ def detect_language(user_input: str) -> str:
 
     return "english"
 
-# 🧠 Unified Knowledge Base Access
+# Unified Knowledge Base Access
 def get_response(user_input: str) -> str:
     lang = detect_language(user_input)
     user_input = user_input.lower().strip()
