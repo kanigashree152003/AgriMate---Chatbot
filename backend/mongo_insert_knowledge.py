@@ -24,8 +24,8 @@ try:
     else:
         print(" All records already exist. No new inserts needed.")
 
-    # 🌾 Print available collections
-    print("📂 Collections:", db.list_collection_names())
+    # Print available collections
+    print(" Collections:", db.list_collection_names())
 
 except Exception as e:
-    print("❌ MongoDB connection or insertion failed:", e)
+    print(" MongoDB connection or insertion failed:", e)
